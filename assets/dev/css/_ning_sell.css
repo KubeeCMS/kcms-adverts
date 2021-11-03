@@ -1,0 +1,243 @@
+.available_zones {
+	line-height: initial;
+	background-color:#F1F1F1;
+	color:#505050;
+	padding: 10px;
+	border-radius: 3px;
+	margin: 20px 0;
+}
+	.available_zones h1.title,
+	.order_header h1.title {
+		font-size: 20px;
+		margin: 0 0 10px;
+		font-weight: normal;
+		line-height: initial;
+		height: initial;
+		padding: 0;
+		color:#6b6b6b;
+	}
+	.available_zones ul.bs {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+		.available_zones ul li.order {
+			margin: 0;
+			background-color: #FFF;
+			border: solid 1px #e8e8e8;
+			border-top:none;
+        }
+		.available_zones ul li.order:first-child {
+			border-top: solid 1px #e8e8e8;
+		}
+			.available_zones ul li a.box {
+				display: block;
+				text-decoration:none;
+				padding: 10px;
+				cursor:pointer;
+                background-color:#ffffff;
+                margin-bottom:0; 
+			}
+			.available_zones ul li a.box:hover {
+				background-color:#ffffea;
+            }
+            .available_zones ul li.order a{
+                text-decoration: underline;
+            }
+		
+		.available_zones ul li.order .edit_banner:before {
+			font-family: fontawesome;
+			content:"\f040";
+			margin-right: 10px;
+		}
+		.available_zones ul li.order .edit_banner, 
+		.available_zones ul li.order .reactivate_banner {
+			background-color:#EFEFEF;
+			padding:5px;
+			color: #999;
+			text-decoration: none;
+			font-size: 13px;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+		.available_zones ul li.order .reactivate_banner {
+			background-color:#abdb6d;
+			color:#FFF;
+		}
+		.available_zones ul li.order .edit_banner:hover {
+			background-color:#424242;
+			color:#FFF;	
+		}
+		.available_zones ul li.order .reactivate_banner:hover {
+			background-color:#9dc36c;
+        }
+        
+
+
+        .adning_cont .status,
+        .adning_cont .status {
+            padding: 0 5px;
+            margin-right: 5px;
+            font-size: 11px;
+            border-radius: 5px;
+            display:inline-block;
+            color:#FFF;
+        }
+        .adning_cont .status.draft{
+            background-color:#ffeca8;
+            color:#A18D48;
+        }
+        .adning_cont .status.in-progress,
+        .adning_cont .status.in-progress {
+            background-color:#e4e4e4;
+        }
+        .adning_cont .status.active, 
+        .adning_cont .status.active{background-color:#abdb6d;}
+        
+        .adning_cont .status.expired, 
+        .adning_cont .status.trash,
+        .adning_cont .status.expired,
+        .adning_cont .status.trash {
+            background-color:#ffdada;
+        }
+        .adning_cont .status.abandoned,
+        .adning_cont .status.abandoned {
+            background-color:#b9b9b9;
+            color:#FFFFFF;
+        }
+        .adning_cont .status.renewed,
+        .adning_cont .status.renewed {
+            border: solid 1px #e2e2e2;
+        }
+        .adning_cont .status.soldout {
+            background-color:#FF6801;
+            color:#FFF;
+        }
+        .adning_cont .status.available {
+            background-color:#abdb6d;
+            color:#FFF;
+        }
+        .adning_cont .paid,
+        .adning_cont .status.paid {
+            color: #abdb6d;
+            font-weight: bold;
+        }
+        
+
+
+        .adning_cont .v_middle {
+            vertical-align:middle;
+        }
+        .adning_cont .one_second {
+            display: inline-block;
+            width: 45.8%;
+            vertical-align: top;
+            text-align: left;
+        }
+        .adning_cont .one_third {
+            display: inline-block;
+            width: 28.8%;
+            vertical-align: top;
+        }
+            .adning_cont .one_third .label {
+                font-size: 13px;
+                font-weight: 600;
+                margin: 0 0 10px 0px;
+                display: block;
+            }
+    
+        .adning_cont .one_forth {
+            display: inline-block;
+            width: 20.8%;
+            vertical-align: top;
+        }
+        .adning_cont .one_fifth {
+            display: inline-block;
+            width: 16.66666667%;
+            vertical-align: top;
+        }
+        .adning_cont .one_sixt {
+            display: inline-block;
+            width:8.33333333%;
+            vertical-align: top;
+        }
+        
+
+
+        .adning_cont .fq_inf {
+            line-height: initial;
+            padding: 0px 2%;
+        }
+        .adning_cont .fq_inf:before {
+            color:#dedede;
+            font-size: 20px;
+            position: relative;
+            top: 20px;
+            font-family: fontawesome;
+        }
+        .adning_cont .fq_inf.rotation:before {
+            content: '\f021';
+        }
+        .adning_cont .fq_inf.adblockers:before {
+            content: '\f132';
+        }
+            .adning_cont .fq_inf span.title,
+            .adning_cont .fq_inf span.desc {
+                display: block;
+                margin: 0 0 2px 0;
+                padding: 0 0 0 30px;
+                font-size: 12px;
+            }
+            .adning_cont .fq_inf span.title {
+                font-weight: bold;
+            }
+
+
+            .adning_cont .adzone_order_form .payment_btn svg{
+                width:40px;
+            }
+
+
+            ._ning_order_form{
+                margin-top:20px; 
+                position: relative;
+            }
+            ._ning_order_form .loading_overlay{
+                display:none;
+                position: absolute;
+                top: 46px;
+                height: 100%;
+                width: 100%;
+                background: #FFF;
+                background: rgba(176, 255, 0, 0.7);
+                z-index: 1;
+            }
+                ._ning_order_form .loading_overlay .inner_loader{
+                    position: absolute;
+                    color: #e0fdcb;
+                    width: 100px;
+                    height: 100px;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    max-width: 100%;
+                    max-height: 100%;
+                    overflow: hidden;
+                }
+
+
+            .adning_cont .payment_btn{
+                background: #FFF;
+                display: inline-block;
+                padding: 5px 5px 2px;
+                line-height: 1;
+                border: solid 4px transparent;
+                border-radius: 3px;
+                cursor: pointer;
+                color: #929e8f;
+            }
+            .adning_cont .payment_btn.selected{
+                border-color: #9cde5a;
+            }

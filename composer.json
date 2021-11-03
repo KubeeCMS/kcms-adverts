@@ -1,0 +1,21 @@
+{
+    "name": "kubeecms/kcms-adverts",
+    "type": "wordpress-plugin",
+    "license": "GNU",
+    "description": "Manage and optimize your ads.",
+    "homepage": "https://github.com/KubeeCMS/kcms-adverts/",
+    "keywords": ["kubeecms", "kubee", "kcms-ul"],
+    "support": {
+        "issues": "https://github.com/KubeeCMS/kcms-adverts/issues/",
+        "forum": "https://discourse.kubee.com/"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "scripts": {
+        "test": ["phpcs --ignore=vendor --extensions=php --standard=PSR2 ."]
+    }
+}

@@ -1,0 +1,434 @@
+ADNING V1.6.2
+——————————————————————————————————
+* WP 5.7.2 code improvements 
+* updated add-ons
+
+
+ADNING V1.6.1
+——————————————————————————————————
+* WP V5.7.+ improvements
+
+
+ADNING V1.6.0
+——————————————————————————————————
+* Fix when using Classic Editor plugin.
+* Improved get_banner_probability() thanks to matthewseymour.
+* Fixed error with Deprecated: array_key_exists on objects.
+
+
+ADNING V1.5.9
+——————————————————————————————————
+* Fixed issue with Wordpress editor for banners not having HTML field.
+* Added angwp_woo v1.0.3
+* Added new "beta" responsive container option for banners.
+
+
+ADNING V1.5.8
+——————————————————————————————————
+* Added option to enable wp_kses_post() when saving/editing banners.
+* Included https changes for tunasite.com
+
+
+ADNING V1.5.7
+——————————————————————————————————
+* Improved security updates.
+* Added option to select available upload file types.
+* Added SmarTrack v1.1.9
+
+
+ADNING V1.5.6
+——————————————————————————————————
+* Important security update.
+
+
+ADNING V1.5.5
+——————————————————————————————————
+* Auto updater bug fix.
+
+
+ADNING V1.5.4
+——————————————————————————————————
+* Switched to JS tracking for GA. to prevent issue with fake users getting created.
+
+
+ADNING V1.5.3
+——————————————————————————————————
+* Fixed issue with smarTrack impressions.
+* Added smarTrack v1.1.8
+
+
+ADNING V1.5.2
+——————————————————————————————————
+* Fixed timeout issue with random banner probability function.
+* Improved Google Analytics tracking.
+* Switched to serverside tracking for GA.
+
+
+ADNING V1.5.1
+——————————————————————————————————
+* Added filter "adning_show_hide" to enable 3rd party code to manage if a banner needs to show or not.
+* Improved queried_object in Adni_filters.
+* Improved debug mode logs.
+* Added fix for edit button when using Classic Editor plugin.
+
+
+ADNING V1.5.0
+——————————————————————————————————
+* Updated admin colors.
+* Added option to control ads for 404 error pages.
+* Improved order status handling.
+* Fixed scroll popups with class/ID trigger.
+
+
+ADNING V1.4.9
+——————————————————————————————————
+* Improved shuffle_probability.
+* Improved adzone banner probability percentage.
+* Fixed issue with expired banners on daily basis.
+
+
+ADNING V1.4.8
+——————————————————————————————————
+* Added new popup template option shortcode [adning_popup].
+* Improved adzone banner probability percentage.
+* Included smarTrack v1.1.7
+* Fixed issue with cornerpeel links for adzones.
+
+
+ADNING V1.4.7
+——————————————————————————————————
+* Expire order if necessary when loading contract line.
+* Added success notice after saving banner.
+* Included angwp_woo v1.0.2
+* Added default empty bg color for popups.
+* Fixed issue with responsive popups.
+
+
+ADNING V1.4.6
+——————————————————————————————————
+* Added latest modalJS version improving popup close button.
+* Added older years back to campaigns.
+* Added campaign option to limit banners by clicks/impressions.
+* Removed scaling when adzone responsiveness is turned off.
+
+
+ADNING V1.4.5
+——————————————————————————————————
+* Added action "adning_order_expired".
+* Added option to select unique stats for contracts.
+* Improved error_handling for filters.
+* Fixed loading get_country() when unnecessary.
+* Reverted Maxmind files to older version for bug with Woocommerce.
+
+
+ADNING V1.4.4
+——————————————————————————————————
+* FIXED issue with wp_user_roles option.
+* Added smarTrack v1.1.6
+
+
+ADNING V1.4.3
+——————————————————————————————————
+* Fixed undefined show_hide with author filters.
+* Added wp_style_is to check if common CSS already is available.
+* Fixed issue with order confirmation.
+* Added 300x100 banner size.
+* Updated geolocation files to support ipv6
+* Fixed issue with banners status not changing when contract expires.
+
+
+ADNING V1.4.2
+——————————————————————————————————
+* Added smarTrack v1.1.5
+* Fixed issue with Author Filters not saving correctly when removing item.
+
+
+ADNING V1.4.1
+——————————————————————————————————
+* Fixed issue with adzones not removing from banners (banner settings)
+* Added angwp_{bannerID} class to banner and adzone container.
+* Improved filters for ads on Category pages.
+ 
+
+ADNING V1.4.0
+——————————————————————————————————
+* Added "nofollow" option for background ads.
+* Fixed banner impressions for background ads.
+* Fixed issue with tag filter for auto positioning.
+
+
+ADNING V1.3.9
+——————————————————————————————————
+* Added RSS option to banner export settings.
+* Added is_int check to random_weight() function.
+* Added notice when smarTrack database tables are not created.
+* Included smarTrack V1.1.4
+
+
+ADNING V1.3.8
+——————————————————————————————————
+* Added RSS feed for banners http://yoursite.com?adning-rss={Banner ID}
+* Moved UPLOAD constant variables to define_variables() to fix issue with https still using http on some servers.
+
+
+ADNING V1.3.7
+——————————————————————————————————
+* Added option to save stats by advertiser.
+* Added option to hide ADS when no author filter is selected.
+* Fixed, Warning: array_key_exists() expects parameter 2 to be array, boolean given in /wp-content/plugins/angwp/include/classes/ADNI_Filters.php on line 121
+
+
+ADNING V1.3.6
+——————————————————————————————————
+* Fixed issue with country filters for banners not removing.
+* Fixed issue with stats for iframe and embed code.
+* Fixed issue with banners not removing from adzones when they get removed.
+
+
+ADNING V1.3.5
+——————————————————————————————————
+* Improved campaign date settings (start/end date)
+* Fixed multisite issue.
+
+
+ADNING V1.3.4
+——————————————————————————————————
+* Improved author display filter. Dont hide ads when no id is provided & don't allow users without permission to edit all banners to select all users.
+
+
+ADNING V1.3.3
+——————————————————————————————————
+* Fixed issue with foreach loop on functions for some servers.
+* Improved custom_http_headers.
+
+
+ADNING V1.3.2
+——————————————————————————————————
+* Added Author Filter to Display Filters.
+* Added smarTrack v1.1.2.
+* Fixed load_code_editor $ is not defined.
+* Fixed file loading issues with _ning_front
+
+
+ADNING V1.3.1
+——————————————————————————————————
+* Improved role manager.
+
+
+ADNING V1.3.0
+——————————————————————————————————
+* Added custom probability (weight) option for showing random banners in adzones.
+* Added custom CSS option to adzone settings.
+* Updated ModalJS version 1.0.4
+* Improved send_payment array().
+* Improved positioning settings for popup banners.
+
+
+ADNING V1.2.9
+——————————————————————————————————
+* Improved _ning_link CSS.
+* Fixed issue with banners not showing on IE.
+* Fixed issue with multiple instances of adzone on same page.
+* Added babel.
+
+
+ADNING V1.2.8
+——————————————————————————————————
+* Fixed plugin activation error on some servers.
+* Fixed output_collect_footer static error.
+* Fixed loaded banners js stats for popups.
+* Fixed cannot read property 'currentSTyle' of null JS error.
+* Fixed issue with banners moving to last position in adzones after editing them.
+
+
+ADNING V1.2.7
+——————————————————————————————————
+* Improved collected js for admin area.
+* Fixed issue with export code not loading javascript.
+
+
+ADNING V1.2.6
+——————————————————————————————————
+* Added .pot file for translation
+* Starting to improve code for AMP (https://nl.wordpress.org/plugins/amp/)
+* Improved inline JS, all inline javascript gets collected and added to footer.
+
+
+ADNING V1.2.5
+——————————————————————————————————
+* Fixed issue with auto updates.
+
+
+ADNING V1.2.4
+——————————————————————————————————
+* Added option to track stats using Google Analytics.
+* Added banner duration option.
+* Added option to hide all banners from post page (meta-box). 
+
+
+ADNING V1.2.3
+——————————————————————————————————
+* Important folder name changes.
+* Improved imgMCE integration (needs imgMCE v1.2.4 or later).
+* Added background color option for banners.
+
+
+ADNING V1.2.2
+——————————————————————————————————
+* Added parallax fallback background option.
+* Added option to create banners using the default Wordpress post editor, Gutenberg or any page builder.
+* Improved banner uploader.
+
+
+ADNING V1.2.1
+——————————————————————————————————
+* Added parallax effect options for banners and adzones.
+* Updated new coloringPick version.
+
+
+ADNING V1.2.0
+——————————————————————————————————
+* Added automatic add-on installation functions.
+* Added option to allow scrolling thru adzone ads.
+* Improved responsive design for adzones.
+* Improved collecting stats to prevent caching issues.
+* Improved parse args function for deprecated PHP each function.
+* Fixed some small random bugs.
+
+
+ADNING V1.1.9
+——————————————————————————————————
+* Improved display filter for home pages (front_page).
+* Improved error handling.
+* Fixed unknown "after_x_post_repeat" notice.
+* Fixed display filter issue for singular pages.
+* Fixed issue while removing banners when smarTrack is not activated.
+
+
+ADNING V1.1.8
+——————————————————————————————————
+* Added WooCommerce Checkout to payment options for selling ADS.
+* Added click stats for BG ADS.
+* Added repeat option for in loop and in content ADS.
+
+
+ADNING DEV V1.1.7.1
+——————————————————————————————————
+* Update fix
+* Install fix
+
+
+ADNING V1.1.7
+——————————————————————————————————
+* Added Bank Transfer option for selling ad spots.
+* Added Admin order list to follow up purchases.
+* Improved Auto Positioning functionality.
+* Fixed issue with display filter Tags only showing first 20.
+
+
+ADNING DEV V1.1.6.1
+——————————————————————————————————
+* Added status for adzones.
+* Changed default "link masking" settings to true.
+* Fixed manually approve issue for purchased ads.
+
+
+ADNING V1.1.6
+——————————————————————————————————
+* Drastically improved load times for banner and adzone settings pages.
+* Improved Display Filter functionality.
+* smarTrack v1.0.9
+
+
+ADNING V1.1.5
+——————————————————————————————————
+* Improved load times for banner and adzone settings pages.
+* Added Sell page shortcodes.
+* Fixed some random saving issues.
+* Fixed columns vs rows
+
+
+ADNING V1.1.4
+——————————————————————————————————
+* Added mp4 video support for banners.
+* Included smarTrack v1.0.8
+* Improved statistics.
+* Fixed issue with paypal sandbox url.
+
+
+ADNING V1.1.3
+——————————————————————————————————
+* Included new smarTrack version with some bug fixes and automatic plugin updates.
+
+
+ADNING V1.1.2
+——————————————————————————————————
+* Added option to disable banner filters for adzones.
+* Added option to assign banners to specific advertiser (user).
+* Added Adning widget option.
+* Fixed issues with embed code.
+
+
+ADNING V1.1.1
+——————————————————————————————————
+* Added option to sell ad spots directly from your website.
+* Added frontend banner manager.
+* Added option to show multiple banners the same time for adzones. (Ad grid)
+* Added option to link banners to adzones directly from the banner settings page.
+* Improved display filter.
+* Improved code for empty adzones.
+* smarTrack improvements.
+* Fixed issues with WP multimedia images not showing.
+* Fixed issue with uploader in Firefox and Safari.
+* Fixed issue with country filter.
+
+
+ADNING V1.1.0
+——————————————————————————————————
+* Added option to turn Adblock detection on/off.
+* Added option to inject banners after specific class/ID.
+
+
+ADNING V1.0.9
+——————————————————————————————————
+* Added option to load banners in adzone in random order.
+* Added option to load only one banner in adzone.
+* Fixed issue with show_tablet setting not saving. 
+* Fixed issue with auto positioning.
+
+
+ADNING V1.0.8
+——————————————————————————————————
+* Added Campaigns option for banners and adzones.
+* Improved admin roles.
+* Fixed issue with custom roles for creating banners and adzones. 
+
+
+ADNING V1.0.7
+——————————————————————————————————
+* Added country filters.
+* Improved auto positioning for custom post types.
+* Fixed settings issue.
+* Fixed issue with activation.
+
+
+ADNING V1.0.6
+——————————————————————————————————
+* Added disable ad options.
+* Added GDPR functions.
+* Fixed User Role issues.
+* Updated .PO files for translation.
+
+
+ADNING V1.0.5
+——————————————————————————————————
+* Added corner peel option.
+* Added background Ad option.
+* Improved code for use on Wordpress multisites.
+* Improved display filters.
+
+
+ADNING V1.0.4
+——————————————————————————————————
+* First BETA release
+* started using webpack for JS/CSS

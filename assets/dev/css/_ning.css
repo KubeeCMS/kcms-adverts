@@ -1,0 +1,409 @@
+.clear::after {
+	clear:both;
+	content: " ";
+    display: table;
+}
+.clearFix {
+	clear:both;
+	content: " ";
+    display: table;
+}
+.adning_cont .adning_logo {
+	background-image:url(../../images/logo.png);
+	background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-left: 20px;
+    width: 50px;
+    height: 70px;
+}
+
+._ning_hidden {
+	opacity:0;
+}
+._ning_visible {
+	opacity:1;
+}
+
+
+/**
+ * _ning_outer gets added to banners and adzones.
+ * However, banners loaded inside an adzone will not get this class
+*/
+._ning_outer{
+	-webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+._ning_outer._align_left{
+	float: left;
+    margin: 0 20px 20px 0;
+}
+._ning_outer._align_center{
+	float: none;
+}
+._ning_outer._align_right{
+	float: right;
+    margin: 0 0 20px 20px;
+}
+._ning_outer.has_border{
+	padding: 15px;
+}
+._ning_outer.has_label.has_border{
+	padding: 0 15px 15px;
+}
+._ning_outer.has_label ._ning_label{
+	padding: 5px 0;
+	font-size: 13px;
+}
+._ning_outer.has_label ._ning_label._left{
+	float:left;
+}
+._ning_outer.has_label ._ning_label._center{
+	float:none;
+	text-align: center;
+}
+._ning_outer.has_label ._ning_label._right{
+	float:right;
+}
+
+
+
+/**
+ * MAIN BANNER
+*/
+._ning_holder {
+	line-height:0;
+}
+._ning_holder.popup {
+	position: fixed;
+	max-height:100% !important;
+	max-width:100% !important;
+	background: #0000009e;
+	text-align:center;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 90vh;
+    margin-top: -45vh;
+    padding-bottom: 90vh;
+	z-index:9999;
+}
+	._ning_holder iframe {
+		margin-bottom:0;
+	}
+._ning_cont {
+	margin:0px auto;
+	background-color:transparent;
+	width:300px;
+	height:250px;
+	overflow:hidden;
+	position:relative;
+	line-height:1;
+}
+._ning_jss_zone{
+	margin: 0px auto;
+}
+
+._ning_inner {
+	position:relative;
+	width:100%;
+	height:100%;
+	clear: both;
+}
+._ning_link{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+    height: 100%;
+    z-index: 1001;
+    text-decoration: none;
+}
+
+._ning_elmt {
+    /*position: absolute;*/
+}
+	._ning_elmt img {
+		max-width: none;
+	}
+	._ning_cont:not(.scale) ._ning_elmt img, ._ning_elmt.noresize img {
+		width:100%;
+	}
+
+
+/**
+ * MAIN ADZONE
+*/
+.w-100 {
+    width: 100%!important;
+}
+._ning_zone_inner{
+	clear:both;
+}
+
+._ningzone_grid.mjs_column{
+	padding:15px;
+	box-sizing: inherit;
+}
+
+
+.spot_box,
+.adning_cont .pop_box{
+	width: 78px;
+	position: relative;
+	border: solid 1px #ededed;
+    border-radius: 3px;
+	overflow: hidden;
+	cursor: pointer;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.popup_display_options .pop_box{
+	width:40px;
+}
+.spot_box.selected,
+.adning_cont .pop_box.selected{
+	border: solid 5px #d9e89b;
+}
+.popup_display_options .pop_box.selected{
+	border-width: 5px;
+	border-color: #c7ff00;
+}
+	.spot_box .a_cont,
+	.adning_cont .pop_box .a_cont{
+		position: absolute;
+		background: #f9f9f9;
+	}
+	.spot_box .a_box,
+	.adning_cont .pop_box .a_box{
+		background: #d4ff00;
+	}
+
+
+
+/**
+ * GDPR APPROVE
+*/
+.gdpr_approve .col_in{
+	padding: 15px;
+}
+.gdpr_approve .desc{
+	font-size: 13px;
+	color: #00473e;
+}
+.gdpr_approve .my_close_button{
+	background: #008476;
+	color: #00dfc3;
+	padding: 5px 10px;
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+}
+.gdpr_approve .my_close_button:hover{
+	background: #01d9c2;
+	color: #007e6e;
+}
+.gdpr_approve .cookie_settings{
+	font-size: 15px;
+	color: #006a61;
+}
+
+
+
+
+
+.ppp-subscribe-pup-holder{
+	font-family: var(--ppp-font-family);
+}
+.ppp-subscribe-pup-holder .ppp-sp-background {
+	display: table-cell;
+	width: 50%;
+	background-size: cover;
+	background-position: center;
+}
+.ppp-subscribe-pup-holder .ppp-sp-content-container {
+	background: var(--ppp-sidebar-bg-color);
+	display: table-cell;
+	vertical-align: middle;
+	height: var(--ppp-content-height);
+	padding: var(--ppp-content-padding);
+	text-align: left;
+}
+.ppp-subscribe-pup-holder .ppp-sp-title {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 16px;
+	color: var(--ppp-title-font-color);
+	font-size: 24px;
+}
+.ppp-subscribe-pup-holder .ppp-sp-subtitle {
+	margin-bottom: 6px;
+	padding-right: 30%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: var(--ppp-subtitle-font-color);
+}
+.ppp-subscribe-pup-holder .ppp7 .info-sidebar {
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+.info-sidebar.no-bg .info-input-holder {
+	max-width: 510px;
+	margin: auto;
+}
+.info-sidebar .info-input-holder {
+	position: relative;
+}
+.info-sidebar .info-input-holder .ppp7-form-control-wrap.your-email {
+	font-size: 13px;
+}
+.ppp7-form-control-wrap {
+	position: relative;
+}
+.info-sidebar .info-input-holder .ppp7-form-control.ppp7-text {
+	padding: 10px 130px 10px 26px;
+	border: none;
+	background-color: var(--ppp-input-bg-color);
+	height: 45px;
+	color:var(--ppp-input-font-color);
+	margin: 0;
+}
+.ppp-btn.ppp-btn-solid.ppp-btn-direction-animation:not(.ppp-view-product):not(.add_to_cart_button) {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	min-height: 42px;
+}
+.ppp-btn.ppp-btn-solid.ppp-btn-direction-animation {
+	vertical-align: middle;
+	white-space: nowrap;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+	border: none!important;
+	padding: 12px 26px 9px;
+}
+.ppp7-form-control.ppp7-text, 
+.ppp7-form-control.ppp7-textarea, 
+.ppp7-form-control input[type=text], 
+.ppp7-form-control input[type=email], 
+.ppp7-form-control input[type=password]{
+	position: relative;
+	width: 100%;
+	margin: 0 0 20px;
+	padding: 12px 27px;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: calc(54px - (12px * 2));
+	border: none;
+	border-radius: 0;
+	outline: 0;
+	cursor: text;
+	-webkit-appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: border-color .2s ease-in-out;
+	-o-transition: border-color .2s ease-in-out;
+	transition: border-color .2s ease-in-out;
+}
+.ppp-btn.ppp-btn-solid {
+	color: var(--ppp-btn-font-color);
+	background-color: var(--ppp-btn-bg-color);
+	border: 1px solid transparent;
+}
+.info-sidebar .info-input-holder .ppp-btn.ppp-btn-solid {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
+}
+.ppp-btn {
+	position: relative;
+	width: auto;
+	margin: 0;
+	border-radius: 0;
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: .1em;
+	text-indent: .15em;
+	font-weight: 800;
+	text-transform: uppercase;
+	outline: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+	transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+	padding: 10px 25px 9px;
+	cursor: pointer;
+}
+.ppp-btn.ppp-btn-solid.ppp-btn-direction-animation:hover {
+	-webkit-transition: color .2s ease-out;
+	-o-transition: color .2s ease-out;
+	transition: color .2s ease-out;
+	color: var(--ppp-btn-hover-font-color);
+	background-color: var(--ppp-btn-hover-bg-color);
+}
+.ppp7-response-output{
+	color: var(--ppp-response-font-color);
+}
+
+
+
+
+.angwp-outer-cont{
+	overflow: hidden;
+	/*max-height: calc(var(--height) * 1px);*/
+	max-width: calc(var(--width) * 1px);
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+.angwp-outer-cont .angwp-cont{
+	overflow: hidden;
+	padding-top: calc( var(--height) / var(--width) * 100%);
+	height:0;
+	position: relative;
+	clear: both;
+}
+.angwp-outer-cont .angwp-cont .angwp-in{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.angwp-outer-cont .angwp-cont .angwp-in img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+@media only screen and (max-width: 375px){
+	.ppp-subscribe-pup-holder .ppp-sp-title{
+		text-align: center;
+		margin-top: 0;
+	}
+	.ppp-subscribe-pup-holder .ppp-sp-subtitle{
+		padding-right: 0;
+		text-align: center;
+	}
+	.info-sidebar .info-input-holder .ppp-btn.ppp-btn-solid {
+		position: relative;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.info-sidebar .info-input-holder .ppp7-form-control.ppp7-text{
+		padding: 10px 26px;
+	}
+}
+@media only screen and (max-width: 680px){
+	.ppp-subscribe-pup-holder .ppp-sp-background {
+		display: none;
+	}
+}

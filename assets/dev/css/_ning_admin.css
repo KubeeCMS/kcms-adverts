@@ -1,0 +1,667 @@
+@import url("../../../include/widgets/switch_button/switch.css");
+@import url("../../../include/widgets/tooltipster/tooltipster.bundle.min.css");
+@import url("../../../include/widgets/tooltipster/tooltipster-sideTip-light.min.css");
+@import url("../../../include/widgets/chosen/custom.css");
+
+
+.adning_cont .switch-slide .switch-label:after, 
+.adning_cont .switch-slide .switch-label:before {
+	width: 100%;
+    height: 100%;
+}
+
+.adning_cont .smartrackError{
+    padding: 10px;
+    margin: 5px 0;
+    background: #ffd17e;
+}
+.adning_cont ._ning_notices .smartrackError{
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+
+.adning_cont ._col_pick_tool{
+    height: 41px;
+    margin-bottom:0;
+}
+.adning_cont ._col_pick_tool .col-colorbox {
+    width: 41px;
+}
+.adning_cont ._col_pick_tool .col-colorbtn {
+    padding: 6px 6px 1px;
+}
+.adning_cont .small_coloringPick ._col_pick_tool{
+    height: 30px;
+}
+.adning_cont .small_coloringPick ._col_pick_tool .col-colorbtn {
+    padding: 2px 6px 1px;
+}
+
+.adning_cont .banner_holder ._ning_inner{
+    background: #EFEFEF;
+}
+
+
+.adning_cont .role_manager h3.title{
+    font-weight: bold;
+}
+.adning_cont .role_manager .input_container{
+    margin-top: 15px;
+}
+.adning_cont .role_manager .all_check_cont{
+    border-right: solid 1px #eaeaea;
+}
+
+
+.adning_cont .spr_column.stats_box .input_container_inner{
+    background: #e5e5e5;
+    color: #9b9b9b;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+
+.adning_cont .approve_banner_box{
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #f8ffdb;
+    color: #5f7a35;
+}
+
+
+
+/**
+ * Option Boxes
+*/
+.option_box {
+    background-color: #F9F9F9;
+    border: solid 1px #EFEFEF;
+    border-top: none;
+    margin-bottom: 20px;
+}
+.option_box::after {
+	content:" ";
+	display: table;
+	clear:both;
+}
+	.adning_cont .option_box .info_header {
+		text-align: left;
+		background-color: #dce7a4;
+		color: #575a47;
+		margin-bottom:20px;
+		min-height:45px;
+		position:relative;
+    }
+    .adning_cont .option_box .info_header .nr svg{
+        width:20px;
+        height: 20px;
+    }
+	.info_header.white {
+		color: #565656;
+		background-color: #FFF;
+	}
+		.adning_cont .option_box .info_header.white span.nr, 
+		.adning_cont .option_box .info_header span.icon {
+			border-right: solid 1px #f1f1f1;
+		}
+		.adning_cont .option_box .info_header span.nr, 
+		.adning_cont .option_box .info_header span.icon {
+			border-right: solid 1px #F9F9F9;
+			font-size: 25px;
+			font-weight: 800;
+		}
+		.adning_cont .option_box .info_header span.icon {
+			font-size: 20px;
+		}
+		.adning_cont .option_box .info_header span.text {
+			font-size: 14px;
+		}
+		.adning_cont .option_box .info_header span {
+			vertical-align: middle;
+			line-height: 25px;
+			padding: 10px 15px;
+			display: inline-block;
+        }
+
+        .adning_cont .option_box.closed .info_header{
+            margin-bottom: 0px;
+        }
+        .adning_cont .option_box .tog,
+        .adning_cont .adn_settings_cont .togg{
+            float: right;
+            font-size: 24px;
+            border-left:solid 1px #F9F9F9;
+            cursor: pointer;
+        }
+        .adning_cont .option_box.closed .tog:before,
+        .adning_cont .adn_settings_cont.closed .togg:before {
+            content: "\f107";
+        }
+        .adning_cont .option_box .tog:before,
+        .adning_cont .adn_settings_cont .togg:before {
+            content: "\f106";
+        }
+
+        .adning_cont .adn_settings_cont .togg{
+            float: right;
+            font-size: 18px;
+            border-left: solid 1px #dbdbdb;
+            color: #a7a7a7;
+            cursor: pointer;
+            padding: 0 0 0 9px;
+        }
+        
+
+        .adning_cont ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: rgb(192, 192, 192);
+            opacity: 1; /* Firefox */
+        } 
+        .adning_cont :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: rgb(192, 192, 192);
+        }
+        .adning_cont ::-ms-input-placeholder { /* Microsoft Edge */
+            color: rgb(192, 192, 192);
+        }
+
+.adning_cont .ning_meta_box .option_box{
+    background-color: transparent;
+    border: none;
+}
+
+
+/**
+ * Sep Line
+*/	
+.adning_cont .sep_line {
+    width: 100%;
+    height: 10px;
+    border-bottom: 1px solid #EFEFEF;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+    .adning_cont .sep_line span {
+    background-color: #F9F9F9;
+    padding: 0 10px;
+}
+
+
+/**
+ * Question tooltips
+*/
+._dn_quest_tooltip {
+	font-size: 9px;
+	width: 10px;
+    position: absolute;
+    top: -1px;
+    margin-left: 2px;
+    z-index: 2;
+}
+.tooltipster-content {
+    font-size: 11px !important;
+    line-height: 1.8 !important;
+}
+
+
+.adning_cont .spr_check_container input:checked ~ .checkmark:after{
+    box-sizing: initial;
+}
+
+.adning_cont .button-secondary,
+.adning_cont .available_zones ul li.order .button-secondary{
+    text-decoration: none;
+}
+
+
+.info_balloon{
+    display: inline-block;
+    vertical-align: top;
+    margin: 1px 0 0 2px;
+    padding: 0 7px;
+    min-width: 7px;
+    height: 20px;
+    border-radius: 11px;
+    background-color: #1e9fd7;
+    color: #fff;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    z-index: 26;
+}
+
+
+/**
+ * Form fields
+*/
+.adning_cont .input_container {
+    position: relative;
+    display: block;
+    height: auto;
+    border: none;
+    padding: 0px 20px;
+    text-align: left;
+}
+    .adning_cont .input_container .input_container_inner {
+		position: relative;
+		margin: 0 0 10px 0;
+	}
+	.adning_cont .input_container h3.title {
+		font-size: 13px;
+    	color: #333;
+    	margin: 0 0 3px 0;
+	}
+        .adning_cont .input_container input[type=text], 
+        .adning_cont .input_container input[type=number],
+        .adning_cont .input_container select, 
+        .adning_cont .input_container textarea {
+			margin: 0;
+			line-height: 20px;
+			width: 100%;
+			padding: 11px 45px 10px 15px;
+			background-color: #e5e5e5;
+			color: #777;
+			font-size: 14px;
+			font-weight: 600;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			vertical-align: middle;
+			border: none!important;
+			box-shadow: none!important;
+			-webkit-box-shadow: none!important;
+		}
+		.adning_cont .input_container select {
+			height: 41px;
+		}
+    .adning_cont .input_container .input_icon {
+		position: absolute;
+		cursor: pointer;
+		right: 0;
+		top: 0;
+		padding-top: 12px;
+		text-align: center;
+		width: 30px;
+		height: 31px;
+		overflow: hidden;
+		color: #BBB;
+		font-size: 20px;
+	}
+	.adning_cont .input_container span.description {
+		font-size: 13px;
+		line-height: 1.2;
+		font-style: italic;
+		display: block;
+		border: none;
+	}
+	.adning_cont .input_container span.description.bottom {
+		margin-top:5px;
+		margin-bottom: 20px;
+	}
+	
+.adning_cont .upload_image_button::before {
+	content: "\f03e";
+	font: normal normal normal 14px/1 FontAwesome;
+	margin-right: 10px;
+}
+
+
+
+
+
+.adning_dashboard .wrap {
+    padding: 35px 40px 0 20px !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100%;
+    position: relative;
+}
+.adning_dashboard .wrap, .adning_dashboard .wrap * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.adning_dashboard h1 {
+    margin: 0 200px 20px 0;
+    padding: 0;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 1.3em;
+}
+.adning_dashboard h3 {  
+    margin: 0 200px 15px 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.45em;
+    letter-spacing: 0;
+    color: #777;
+}
+
+.adning_cont .export_switch_box{
+    display: none;
+}
+.adning_cont .export_switch_box.visible{
+    display: block;
+}
+.embed_export_switcher .switch-label{
+    width:90px;
+}
+.embed_export_switcher.input_h .switch-label:after, 
+.embed_export_switcher.input_h .switch-label:before{
+    padding-top: 17% !important;
+}
+.export_switcher_cont{
+    display: inline-block !important;
+}
+.iframe_export_switcher{
+    left: 26px !important;
+}
+
+.adning-header {
+    position: relative;
+}
+
+.adn-head-logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 140px;
+    font-size: 70px;
+    color: #107FC9;
+    padding: 20px 0 20px;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.adn-head-logo:before {
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 30px 0;
+}
+.adn-product-ver {
+    width: 100%;
+    color: #FFF;
+    padding: 7px 10px;
+    margin: 0;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    background-color:#72bd00;
+}
+
+
+.adning-settings-wrapper{
+    margin: 60px 0 40px;
+}
+.adning-about-tabs {
+    margin: 20px 0 0px;
+}
+.adning-settings-wrapper .nav-tab-wrapper a, .adning-about-tabs .nav-tab-wrapper a{
+    font-size: 18px;
+}
+
+
+.adning_dashboard .wrap .container .spr_check_container * {
+    box-sizing: initial;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+}
+
+
+
+
+
+.adn_settings_cont{
+    border:solid 1px #eaeaea;
+    border-radius: 2px;
+    margin-bottom:20px;
+}
+    .adn_settings_cont h4{
+        background: #efefef;
+        padding: 10px;margin:0;
+    }
+    .adn_settings_cont .adn_settings_cont_inner{
+        padding:10px 10px 0;
+    }
+    .adn_templates_cont_inner .adn_tpl_obj{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+
+    .adn_shape_library ._lib_menu {
+        float: left;
+        width: 20%;
+    }
+        .adn_shape_library ._lib_cat{
+            position: relative;
+            border-bottom: solid 1px #e6e6e6;
+            display: block;
+            padding: 10px 5px;
+            background-color: #efefef;
+            cursor: pointer;
+            color: #444;
+        }
+        .adn_shape_library ._lib_cat:hover, .adn_shape_library ._lib_cat.selected{
+            background-color: #FFFFFF;
+        }
+        .adn_shape_library ._lib_cat.selected{
+            border-right: solid 1px #ffffff;
+            margin-right: -1px;
+        }
+            .adn_shape_library ._lib_cat h3{
+                font-size: 12px;
+            }
+    .adn_shape_library ._lib_objects_container{
+        float: left;
+        width: 80%;
+        background-color: #FFF;
+        border-left: solid 1px #e6e6e6;
+    }
+        .adn_shape_library ._lib_objects{
+            display: none;
+        }
+        .adn_shape_library ._lib_objects.selected{
+            display: block;
+        }
+            .adn_shape_library ._lib_objects ._lib_obj_settings{
+                float: left;
+                width: 30%;
+                padding: 10px;
+            }
+            .adn_shape_library ._lib_objects ._lib_svgs{
+                float: left;
+                width: 70%;
+                padding: 10px;
+            }
+            .adn_shape_library ._lib_objects ._lib_obj{
+                width: 20px;
+                margin: 11px;
+                display: inline-block;
+            }
+
+
+
+.input_container_box{
+    display: block;
+    margin: 0 0;
+}
+
+
+.system_status .option_box{
+	border: none;
+}
+.system_status code {
+    border-radius: 3px;
+    margin: 0 0 0 10px;
+    padding: 3px 5px 2px;
+    background: rgba(0, 0, 0, .07);
+    font-size: 13px;
+}
+.system_status .status-bad {
+    background: #e74c3c;
+    color: #fff;
+}
+.system_status .status-good {
+    background: #27ae60;
+    color: #fff;
+}
+.system_status .status-okay {
+    background: #e67e22;
+    color: #fff;
+}
+
+
+
+.adning_dashboard .spr_check_container input:checked ~ .checkmark,
+.adning_cont .spr_check_container input:checked ~ .checkmark{
+    background-color: #d4ff00;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+
+
+.custom_placement_settings_cont,
+.custom_placement_settings_cont .custom_box{
+	display: none;
+}
+
+
+
+.adning_cont #HTML5Uploader .box__input{
+    padding:15px 0;
+}
+
+
+.adning_cont .payment_settings_cont svg{
+    width: 15px !important;
+    margin-right: 10px;
+}
+
+
+
+.adning_cont ._ning_notices{
+    margin: 40px 0;
+    background: #f3ffb6;
+    padding: 20px;
+}
+
+.adning_cont .error_log_container .error_log{
+    font-size: 11px;
+    color: rgb(89, 89, 89);
+    font-family: monospace;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    border: 1px solid rgb(229, 229, 229) !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+.adning_cont .ddrop-upload{
+    min-height: 120px;
+    width:100%;
+    text-align:center;
+    cursor:pointer;
+    background-color: #ffffff;
+    background-image: linear-gradient(45deg,rgba(0,0,0,.05) 25%,transparent 0),linear-gradient(-45deg,rgba(0,0,0,.05) 25%,transparent 0),linear-gradient(45deg,transparent 75%,rgba(0,0,0,.05) 0),linear-gradient(-45deg,transparent 75%,rgba(0,0,0,.05) 0);
+    background-size: 24px 24px;
+    background-position: 0 0,0 12px,12px -12px,-12px 0;
+    border: 1px dashed rgba(136, 136, 136, 0.3);
+    padding:0 0 25px 0;
+  }
+  .adning_cont .ddrop-upload .ddrop-message-inner svg{
+    width:30px;
+  }
+  
+  .adning_cont .ddrop-upload .info_text{
+      font-size: 13px;
+      font-weight: bold;
+      color: #8e8e8e;
+  }
+  .adning_cont .ddrop-upload .info_text_sub{
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+  .adning_cont .dropzone .dz-preview{
+      margin: 16px 0 0;
+  }
+  .adning_cont .dropzone .dz-message{
+      margin:0;
+  }
+  
+  .adning_cont .dz-message{
+    cursor:pointer;
+  }
+  .adning_cont .ddrop-message{
+    display:inline-block;
+    margin: 30px 0;
+    cursor:pointer;
+    color: #81aa0e;
+    background-color: #d2f910;
+    border-radius: 4px;
+    padding: 10px 20px;
+    -webkit-box-shadow: 2px 8px 17px 0 rgba(76,76,76,.05), 2px 12px 19px 0 rgba(0,0,0,.04), 2px 7px 9px 0 rgba(0,0,0,.03), 2px 6px 9px 13px rgba(252,22,0,.02);
+    box-shadow: 2px 8px 17px 0 rgba(76,76,76,.05), 2px 12px 19px 0 rgba(0,0,0,.04), 2px 7px 9px 0 rgba(0,0,0,.03), 2px 6px 9px 13px rgba(252,22,0,.02);
+  }
+    .adning_cont .ddrop-message .ddrop-message-inner{
+      font-size: 24px;
+    }
+    .adning_cont .ddrop-message svg{
+      width:30px;
+    }
+    .adning_cont .ddrop-message .message-text{
+      margin-left: 12px;
+    }
+    .adning_cont .ddrop-upload .ddrop-error-msg{
+      color: #00ffbb;
+      font-size: 15px;
+    }
+
+
+.adning_cont ._imgMCE_btn {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: solid 1px #d9cb03;
+    border-radius: 3px;
+    background-color: #ececa3;
+    color: #a9a24a;
+}
+.adning_cont ._imgMCE_btn:hover {
+    color: #a9a24a;
+    background-color: #f3f38f;
+}
+.adning_cont ._imgMCE_btn .logo_holder{
+    position: absolute;
+    background-color: #e2df10;
+    padding: 6px;
+}
+.adning_cont ._imgMCE_btn .text_holder {
+    display: inline-block;
+    margin-left: 31px;
+    border-left: solid 1px #d9cb03;
+    padding: 5px;
+}

@@ -1,0 +1,47 @@
+.skin_container{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    overflow:hidden;
+}
+.skin_inner{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.skin_bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.skin_bg_top{
+    position: absolute; 
+    z-index: 0; 
+    top: 0px; 
+    left: 50%;
+    transform: translate3d(-50%,0,0);
+    cursor: pointer; 
+    display: block;
+}
+.skin_bg_left{
+    position: absolute; 
+    z-index: 0; 
+    top: 0px; 
+    left: 0px; 
+    height: 100%; 
+    cursor: pointer; 
+    display: block;
+}
+.skin_bg_right{
+    position: absolute; 
+    z-index: 0; 
+    top: 0px; 
+    right: 0px; 
+    height: 100%; 
+    cursor: pointer; 
+    display: block;
+}

@@ -1,0 +1,65 @@
+.cm-s-github {
+	line-height: 1.4em;
+	font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+	/*font-size: 1em;
+	line-height: 1.5em;
+	font-family: inconsolata, monospace;
+	letter-spacing: 0.3px;
+	word-spacing: 1px;
+	background: #F8F8FF;
+	color: #000000;*/
+}
+.cm-s-github .CodeMirror-lines {
+	padding: 8px 0;
+}
+.cm-s-github .CodeMirror-gutters {
+	/*box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+	background-color: #F8F8FF;
+	padding-right: 10px;
+	z-index: 3;
+	border: none;*/
+	border-right: 1px solid #ddd;
+    background-color: #e8e8e8;
+    color: #AAA;
+}
+.cm-s-github div.CodeMirror-cursor {
+	border-left: 3px solid #000000;
+}
+.cm-s-github .CodeMirror-activeline-background {
+	background: #00000012;
+}
+.cm-s-github .CodeMirror-selected {
+	background: #BCD5FA;
+}
+.cm-s-github .cm-qualifier {
+	color:null;
+}
+.cm-s-github .cm-comment {
+	font-style: italic;
+	color: #998;
+}
+.cm-s-github .cm-number {
+	color: #099;
+}
+.cm-s-github .cm-atom {
+	color: null;
+}
+.cm-s-github .cm-string {
+	color: #DD1144;
+}
+.cm-s-github .cm-variable-2 {
+	color: #121289;
+}
+.cm-s-github .cm-property {
+	color:#555;
+}
+.cm-s-github .cm-keyword {
+	color: #1687b5;
+}
+.cm-s-github .cm-operator {
+	color: null;
+}
+.cm-s-github .CodeMirror-linenumber {
+	color: italic;
+}
